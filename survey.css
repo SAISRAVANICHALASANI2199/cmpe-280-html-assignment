@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: start;
+}
+.main-content {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  width: 500px;
+}
+
+.comment {
+  display: flex;
+}
+
+label {
+  margin-right: 20px;
+}
+
+.location {
+  display: flex;
+}
+.location div {
+  margin: 0px 10px;
+}
+.form-btns {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.form-btn {
+  padding: 12px 20px;
+  border: 2px solid gray;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0px 10px;
+}

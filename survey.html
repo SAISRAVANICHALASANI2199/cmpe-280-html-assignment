@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../gloabl.css" />
+    <link rel="stylesheet" href="survey.css" />
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Survey</h1>
+      </header>
+      <div class="main-content">
+        <p class="text">How did you like the center ?</p>
+        <div>
+          <div class="comment">
+            <label for="comments">Comeents</label>
+            <textarea
+              name="comment"
+              id="comments"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+          <div>
+            <h3>Select Text Are Location</h3>
+            <div class="location">
+              <div>
+                <label for="">City:</label>
+                <input list="city" />
+              </div>
+              <div>
+                <label for="">Room Number#:</label>
+                <input list="rooms" />
+              </div>
+            </div>
+          </div>
+          <datalist id="city">
+            <option selected>San Jose</option>
+            <option>San Francisco</option>
+            <option>New york</option>
+            <option>Paulo Alto</option>
+            <option>Washington DC</option>
+            <option>Los Angeles</option>
+          </datalist>
+
+          <datalist id="rooms">
+            <option selected>Room 337</option>
+            <option>Room 317</option>
+            <option>Room 217</option>
+            <option>Room 193</option>
+            <option>Room 112</option>
+            <option>Room 283</option>
+          </datalist>
+
+          <footer class="form-btns">
+            <div>
+              <input
+                class="form-btn"
+                type="submit"
+                value="Submit & Next Question"
+              />
+              <input
+                class="form-btn"
+                type="submit"
+                value="Cancel & Clear Selection"
+              />
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
