@@ -12,3 +12,5 @@
 ##### Video Tag
 ##### Datalist Tag
 ##### Summary Tag
+
+#### It was portrayed using the fact that the produced pages featured both the necessary and optional fields to support the pages' content.
